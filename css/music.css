@@ -1,0 +1,97 @@
+body
+{
+background-color: pink;
+}
+
+.text{
+    margin-left: 38%;
+    margin-top: 4rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+.visual
+{
+    /* margin-left: 10%; */
+    margin-top: 4rem;
+    /* background-color: #76ccee; */
+}
+
+.text p
+{
+    font-size: 2rem;
+}
+
+.keys
+{   
+    height: 13rem;
+    width: 100%;
+    margin-top: 18rem;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.one
+{
+    background-color: red;
+    flex: 1;
+}
+.two
+{
+    background-color: green;
+    flex: 1;
+}
+.three
+{
+    background-color: blue;
+    flex: 1;
+}
+.four
+{
+    background-color: yellow;
+    flex: 1;
+}
+.five
+{
+    background-color: aqua;
+    flex: 1;
+}
+.six
+{
+    background-color: #8a2be2;
+    flex: 1;
+}
+
+.visual div{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+    left: 20%;
+    z-index: -1;
+}
+
+@keyframes jump {
+    0% {
+        bottom : 0%;
+        left: 20%;
+    }
+
+    50% {
+        bottom: 50%;
+        left: 50%;
+    }
+
+    100% {
+        bottom: 0%;
+        left: 80%;
+    }
+}
+
+/* .visual div{
+
+} */
